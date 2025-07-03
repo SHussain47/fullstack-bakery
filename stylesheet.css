@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    color: rgb(211, 7, 7);
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 8px;
+}
+
+main {
+    display: flex;
+    /* gap: 200px; */
+    height: 100vh;
+}
+
+aside {
+    width: 165px;
+    padding: 10px;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;;
+    
+}
+
+li {
+    background-color: rgb(211, 7, 7);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+article {
+    flex: 1;
+}

@@ -30,31 +30,52 @@ nav a {
 
 main {
     display: flex;
-    /* gap: 200px; */
-    height: 100vh;
+    gap: 13px;
+    height: 90vh;
 }
 
 aside {
     width: 165px;
     padding: 10px;
-    
 }
 
 ul {
     list-style: none;
-    padding-left: 0;;
-    
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 li {
     background-color: rgb(211, 7, 7);
     color: white;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 5px;
     padding: 10px;
-
 }
 
 article {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 12px;
+}
+
+.testimonial {
+    padding: 16px;
+    background-color: rgb(218, 211, 211);
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
